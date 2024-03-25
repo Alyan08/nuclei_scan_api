@@ -1,0 +1,10 @@
+
+ip_range:
+  from_ip: "127.0.0.0"
+  to_ip: "127.0.0.255"
+
+name: "alyan"
+
+x-api-key: "123456"
+
+nuclei_path: "C:\\Users\\User\\go\\bin"
