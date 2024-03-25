@@ -28,7 +28,7 @@ def add_scan_task():
 
 @app.route('/api/scan/reports', methods=['GET'])
 @common.source_ip_allowed()
-# @common.check_api_key()
+@common.check_api_key()
 def get_report():
     report_uuid = request.args.get('report_uuid')
     report_status = cache.get(report_uuid)
